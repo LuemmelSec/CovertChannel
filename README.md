@@ -9,6 +9,11 @@ The function itself, which is base64 decoded in the helper.js now can be found i
 ```
 
 # How to use  
+It is crucial that you have the RAW HID function active. Otherwise this won't work:  
+
+![image](https://github.com/user-attachments/assets/f01ceb8b-fc33-4513-8800-1b5d36d7a12f)
+
+
 ## Copy the server folder onto the P4wnP1 (ssh, scp, git, wget whatever)  
 ```
 git clone https://github.com/LuemmelSec/CovertChannel
