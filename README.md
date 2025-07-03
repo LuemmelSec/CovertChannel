@@ -26,3 +26,5 @@ Copy the content of the ``helper.js`` into the ``HIDSCRIPT```section of your P4w
 
 Adjust all the settings to your needs. The way it defaults to is movin the ISE out of view with X -2000 and Y -2000  
 Change the keyboard layout !!!  
+
+Last but not least: Run the payload and catch the shell.
