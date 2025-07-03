@@ -1,5 +1,5 @@
 # Intro  
-This is an alternative of the built-on covert channel option for the P4wnP1 aloa (https://github.com/RoganDawes/P4wnP1_aloa)  
+This is an alternative to the built-in covert channel option for the P4wnP1 aloa (https://github.com/RoganDawes/P4wnP1_aloa)  
 that goes over a raw HID and USB rather than WiFi.  
 
 # How to use  
