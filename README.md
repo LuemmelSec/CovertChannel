@@ -2,6 +2,12 @@
 This is an alternative to the built-in covert channel option for the P4wnP1 aloa (https://github.com/RoganDawes/P4wnP1_aloa)  
 that goes over a raw HID and USB rather than WiFi.  
 
+Since @RoganDawes version was lacking a bit of documentation and the hide function was not working at all, I implemented a new way of doing this.  
+The function itself, which is base64 decoded in the helper.js now can be found in the hide.ps1 file. If you don't trust me, and you probably shouldn't, then you can base64 decode it yourself:  
+```
+[Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes((Get-Content -Raw -Path .\hide.ps1)))| Set-Content .\encoded.txt
+```
+
 # How to use  
 ## Copy the server folder onto the P4wnP1 (ssh, scp, git, wget whatever)  
 ```
